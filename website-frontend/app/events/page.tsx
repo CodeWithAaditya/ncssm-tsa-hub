@@ -143,12 +143,17 @@ export default function EventsPage(): JSX.Element {
           <p className="text-xl mb-8 max-w-3xl mx-auto text-blue-100">
             Discover competitions across engineering, programming, design, and more.
           </p>
-          <button className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors flex items-center mx-auto">
-            <Download className="mr-2 h-5 w-5" />
-            Master PDF Download
-          </button>
+          <a
+            href="https://docs.google.com/spreadsheets/d/1TbLTrIRu7-l_Uhu94ux0SDNcvHvIvzpCRTqWR_-HfA8/edit?gid=0#gid=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center mx-auto bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+          >
+            Events Manager
+          </a>
         </div>
       </section>
+
 
 
       {/* Search and Filter Section */}
